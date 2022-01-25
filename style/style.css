@@ -50,11 +50,33 @@ table {
 }
 
 .my-name {
-    font-size: 45px;
     text-align: center;
 }
-.topnav {
+.navlinks {
     text-align: center;
+}
+.socialicon {
+	width: 20px;
+	text-align: center;
+}
+.bio {
+	margin: 5%;
+}
+
+.franklinpic {
+	display: block;
+	margin-right: 50%;
+	margin-left: 50%;
+}
+
+li:not(:first-child):before {
+    content: "  -  ";
+    color: grey;
+}
+
+.owner {
+	display: block;
+	text-align: center;
 }
 li {
     display: inline;
